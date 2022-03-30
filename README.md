@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Travel Journal App
+An exercise of building a travel journal app with React. 
 
 ## Available Scripts
 
