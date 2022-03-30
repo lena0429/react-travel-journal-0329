@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: antiquewhite;
     font-family: 'Inter', sans-serif;
 }
 
@@ -13,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     padding: 20px 244px;
+    margin-bottom: 0px;
 }
 
 .navbar--logo {
@@ -31,7 +31,7 @@ body {
 
 .card {
     display: flex;
-    padding: 100px 40px;
+    padding: 10px 40px 0px 40px;
 
 }
 
@@ -45,7 +45,7 @@ body {
 .card--stats {
     display: flex;
     flex-direction: column;
-    padding: 19px;
+    padding: 0px 19px;
 }
 
 .card--text {
@@ -58,16 +58,53 @@ body {
 
 .card--position {
     display: flex;
-    align-self: left;
-    padding: 0px 19px;
+    align-items: center;
 }
 
 .card-path {
-    padding: 0px 4px 0px 4px;;
+    max-width: 30px;
 }
 
 .position-text {
     font-size: 10.24px;
     line-height: 100%;
     letter-spacing: 17%;
+    max-width: 326px;
+    padding-left: 4px;
+}
+
+.card--date {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.line {
+    width: 478px;
+    height: 0px;
+    border: 1px solid #F5F5F5;
+}
+
+.google-text {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #918E9B;
+    padding: 0px 12px;
+}
+
+.card--name {
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+
 }
